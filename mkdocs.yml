@@ -1,11 +1,19 @@
 site_name: PhyStar使用与开发手册
 nav:
   - 首页: index.md
-  - 快速开始: quickStart.md
+  - 快速开始: quick-start/quickStart.md
   - 新手指南: fresher-guide/index.md
-  - 使用手册: user-manual/index.md
-  - 程序手册: program-manual/index.md
-  - 算例手册: case-manual/index.md
-  - API文档: api-doc/index.md
-  - 其它资源: other-resources/index.md
-theme: readthedocs
+  - 模型介绍: model-intro/index.md
+  # - 使用手册: user-manual/index.md
+  # - 程序手册: program-manual/index.md
+  # - 算例手册: case-manual/index.md
+  # - API文档: api-doc/index.md
+  # - 其它资源: other-resources/index.md
+theme: material
+markdown_extensions:
+  - pymdownx.arithmatex:
+      generic: true
+
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js

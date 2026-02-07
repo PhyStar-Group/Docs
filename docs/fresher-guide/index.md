@@ -1,5 +1,5 @@
 # 新手指南
-1. 是否了解什么是Linux系统？不了解，可参考 https://www.runoob.com/linux/linux-tutorial.html
+1. 是否了解什么是Linux系统？不了解，可参考 [https://www.runoob.com/linux/linux-tutorial.html](https://www.runoob.com/linux/linux-tutorial.html)
 2. 是否拥有Linux服务器，比如Ubuntu系统？
     1. 如果没有，但使用的是windows系统，可以自行安装WSL，可参考[Windows 11 安装WSL2 子系统](https://www.notion.so/Windows-11-WSL2-2a1add39c28c8098b19fc360e44d4c3e?pvs=21) 
     2. 如果拥有，请记住服务器的IP地址
