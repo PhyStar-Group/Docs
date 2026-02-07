@@ -24,7 +24,7 @@ jobs:
         # pip install mkdocs-material  # 如果你用 Material 主题
 
     - name: Deploy to GitHub Pages
-      uses: peaceiris/actions-gh-pages@v6
+      uses: peaceiris/actions-gh-pages@v4
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_dir: ./site
